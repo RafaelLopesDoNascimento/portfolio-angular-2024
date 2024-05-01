@@ -1,0 +1,22 @@
+<app-header />
+
+<main>
+  <app-knowledge />
+  <app-experiences/>
+
+  @defer(on viewport) {
+    <app-projects/>
+  } @placeholder {
+    <section>
+      <h2>Terminando de carregar os projetos</h2>
+    </section>
+  } @loading {
+    <section>
+      <h2>Carregando os projetos...</h2>
+    </section>
+  } @error {
+    <section>
+      <h2>Erro ao carregar os projetos, tente novamente</h2>
+    </section>
+  }
+</main>
