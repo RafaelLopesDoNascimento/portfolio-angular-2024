@@ -27,11 +27,25 @@ export class ProjectsComponent {
      description: 'Cadastre alunos ou instrutores no site, alunos podem verificar seus treinos que são passados pelos administrador ou personal, remova qualquer aluno ou intrutor, e atualize seus treinos',
      link: [
       {
-        name: 'conheca sobre o site assistindo um video',
+        name: 'Conheça sobre o site assistindo um video',
         href: 'https://drive.google.com/file/d/1wHbRwIwd3ID0mWnUjGRVRqWmcX3I_AKX/view?usp=sharing'
       }
      ]
-    }
+    },
+    {
+      src: 'assets/img/projects/to-do-list.png',
+      alt: 'Site de lista de tarefas' ,
+      title: 'To do List',
+      with: '100px',
+      height: '51px',
+      description: 'cadastro de tarefas com as opções de completas e a em andamento, com button de delete que remove a tarefa',
+      link: [
+       {
+         name: 'Conheça o site',
+         href: 'https://to-do-list-a-b.netlify.app/'
+       }
+      ]
+     }
   ]);
 
   public openDialog(data: IProjects) {
