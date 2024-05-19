@@ -19,7 +19,7 @@ export class ExperiencesComponent {
     },
     {
       summary: {
-        strong: "Treinamento Back-End | Concluidp",
+        strong: "Treinamento Back-End | Concluido",
         p: "Ada Tech - 8 horas"
       },
       text: "<p>Curso de desenvolvimento back-end introduzindo conceitos de orientação a objetos em java e javascript, logica de programação, git e github</p>"
