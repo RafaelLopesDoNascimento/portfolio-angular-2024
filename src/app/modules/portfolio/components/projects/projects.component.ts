@@ -38,7 +38,7 @@ export class ProjectsComponent {
       title: 'To do List',
       with: '100px',
       height: '51px',
-      description: 'cadastro de tarefas com as opções de completas e a em andamento, com button de delete que remove a tarefa',
+      description: 'Cadastro de tarefas com as opções de completas e a em andamento, com button de delete que remove a tarefa',
       link: [
        {
          name: 'Conheça o site',
