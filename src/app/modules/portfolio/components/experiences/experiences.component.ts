@@ -45,6 +45,13 @@ export class ExperiencesComponent {
       },
       text: "<p>Curso de desenvolvimento FullStack em Javascript introduzindo tacnologias como HTML, CSS, Sass, Bootstrap, Angular, React, Nodejs, Javascript, MongoDB, PostgreSQL e Bulma</p>"
     },
+    {
+      summary: {
+        strong: "Desenvolvimento C# | Concluido",
+        p: "Udemy - 10 horas"
+      },
+      text: "<p>Curso de desenvolvimento basico em Csharp orientado a objetos</p>"
+    },
 
   ])
 }
