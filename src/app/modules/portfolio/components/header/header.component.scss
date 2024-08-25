@@ -51,7 +51,6 @@
       figure {
         width: 335px;
         height: 77px;
-
         margin: 0;
         padding: 0;
         display: flex;
@@ -63,6 +62,7 @@
         border-radius:  7px;
 
         figcaption {
+          width: auto;
           a {
             display: flex;
             justify-content: center;
@@ -71,6 +71,7 @@
 
             p {
               margin:  3px 0;
+              font-size: 13px;
             }
             strong {
               color: var(--primary);
